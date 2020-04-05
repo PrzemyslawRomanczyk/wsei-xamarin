@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AirMonitor.Views.Styles">
+    
+        <Style x:Key="label1" TargetType="Label">
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="label2" TargetType="Label">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="VerticalTextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="label3" TargetType="Label">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="span1" TargetType="Span">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="32" />
+            <Setter Property="FontAttributes" Value="Bold" />
+        </Style>
+        <Style x:Key="span2" TargetType="Span">
+            <Setter Property="TextColor" Value="DarkSlateGray" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+        <Style x:Key="frame1" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="50" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="HeightRequest" Value="100"/>
+            <Setter Property="WidthRequest" Value="100"/>
+            <Setter Property="HasShadow" Value="False"/>
+            <Setter Property="BackgroundColor" Value="#33f069"/>
+            <Setter Property="BorderColor" Value="Gray"/>
+        </Style>
+        <Style x:Key="box1" TargetType="BoxView">
+            <Setter Property="HeightRequest" Value="1" />
+            <Setter Property="HorizontalOptions" Value="Fill" />
+            <Setter Property="BackgroundColor" Value="LightGray"/>
+        </Style>
+        <Style x:Key="span3" TargetType="Span">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+        <Style x:Key="span4" TargetType="Span">
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style x:Key="box2" TargetType="BoxView">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="VerticalOptions" Value="Fill" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="WidthRequest" Value="1" />
+            <Setter Property="BackgroundColor" Value="LightGray"/>
+        </Style>
+        <Style x:Key="box3" TargetType="BoxView">
+            <Setter Property="HeightRequest" Value="1" />
+            <Setter Property="HorizontalOptions" Value="Fill" />
+            <Setter Property="BackgroundColor" Value="LightGray"/>
+        </Style>
+        <Style x:Key="slider1" TargetType="Slider">
+            <Setter Property="MaximumTrackColor" Value="Gray" />
+            <Setter Property="MinimumTrackColor" Value="CornflowerBlue" />
+            <Setter Property="ThumbColor" Value="CornflowerBlue"/>
+        </Style>
+        <Style x:Key="button1" TargetType="ImageButton">
+            <Setter Property="Padding" Value="12,24" />
+            <Setter Property="HorizontalOptions" Value="End" />
+            <Setter Property="VerticalOptions" Value="Start"/>
+            <Setter Property="WidthRequest" Value="48"/>
+            <Setter Property="HeightRequest" Value="72"/>
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+        </Style>
+    </ResourceDictionary>
