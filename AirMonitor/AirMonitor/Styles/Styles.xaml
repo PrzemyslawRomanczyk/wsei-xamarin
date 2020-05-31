@@ -8,24 +8,24 @@
             <Setter Property="VerticalTextAlignment" Value="Center"/>
         </Style>
         <Style x:Key="label2" TargetType="Label">
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="{StaticResource TextColorMain}" />
             <Setter Property="FontSize" Value="20" />
             <Setter Property="FontAttributes" Value="Bold" />
             <Setter Property="HorizontalTextAlignment" Value="Center"/>
             <Setter Property="VerticalTextAlignment" Value="Center"/>
         </Style>
         <Style x:Key="label3" TargetType="Label">
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="{StaticResource TextColorMain}" />
             <Setter Property="FontSize" Value="14" />
             <Setter Property="HorizontalTextAlignment" Value="Center"/>
         </Style>
         <Style x:Key="span1" TargetType="Span">
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="{StaticResource TextColorMain}" />
             <Setter Property="FontSize" Value="32" />
             <Setter Property="FontAttributes" Value="Bold" />
         </Style>
         <Style x:Key="span2" TargetType="Span">
-            <Setter Property="TextColor" Value="DarkSlateGray" />
+            <Setter Property="TextColor" Value="{StaticResource TextColorSecond}" />
             <Setter Property="FontSize" Value="12" />
         </Style>
         <Style x:Key="frame1" TargetType="Frame">
@@ -36,20 +36,20 @@
             <Setter Property="HeightRequest" Value="100"/>
             <Setter Property="WidthRequest" Value="100"/>
             <Setter Property="HasShadow" Value="False"/>
-            <Setter Property="BackgroundColor" Value="#33f069"/>
-            <Setter Property="BorderColor" Value="Gray"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource BackColorMain}"/>
+            <Setter Property="BorderColor" Value="{StaticResource BackColorSecond}"/>
         </Style>
         <Style x:Key="box1" TargetType="BoxView">
             <Setter Property="HeightRequest" Value="1" />
             <Setter Property="HorizontalOptions" Value="Fill" />
-            <Setter Property="BackgroundColor" Value="LightGray"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource BackColorSecond}"/>
         </Style>
         <Style x:Key="span3" TargetType="Span">
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="{StaticResource TextColorMain}" />
             <Setter Property="FontSize" Value="20" />
         </Style>
         <Style x:Key="span4" TargetType="Span">
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="{StaticResource TextColorMain}" />
             <Setter Property="FontSize" Value="14" />
         </Style>
         <Style x:Key="box2" TargetType="BoxView">
@@ -57,17 +57,17 @@
             <Setter Property="VerticalOptions" Value="Fill" />
             <Setter Property="HorizontalOptions" Value="Center" />
             <Setter Property="WidthRequest" Value="1" />
-            <Setter Property="BackgroundColor" Value="LightGray"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource BackColorSecond}"/>
         </Style>
         <Style x:Key="box3" TargetType="BoxView">
             <Setter Property="HeightRequest" Value="1" />
             <Setter Property="HorizontalOptions" Value="Fill" />
-            <Setter Property="BackgroundColor" Value="LightGray"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource BackColorSecond}"/>
         </Style>
         <Style x:Key="slider1" TargetType="Slider">
-            <Setter Property="MaximumTrackColor" Value="Gray" />
-            <Setter Property="MinimumTrackColor" Value="CornflowerBlue" />
-            <Setter Property="ThumbColor" Value="CornflowerBlue"/>
+            <Setter Property="MaximumTrackColor" Value="{StaticResource BackColorSecond}" />
+            <Setter Property="MinimumTrackColor" Value="{StaticResource ThumbColor}" />
+            <Setter Property="ThumbColor" Value="{StaticResource ThumbColor}"/>
         </Style>
         <Style x:Key="button1" TargetType="ImageButton">
             <Setter Property="Padding" Value="12,24" />
@@ -75,6 +75,13 @@
             <Setter Property="VerticalOptions" Value="Start"/>
             <Setter Property="WidthRequest" Value="48"/>
             <Setter Property="HeightRequest" Value="72"/>
-            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource BackColorThird}"/>
         </Style>
-    </ResourceDictionary>
+        <Style x:Key="button2" TargetType="Button">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="WidthRequest" Value="200"/>
+            <Setter Property="HeightRequest" Value="60"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource BackColorThird}"/>
+        </Style>
+</ResourceDictionary>
