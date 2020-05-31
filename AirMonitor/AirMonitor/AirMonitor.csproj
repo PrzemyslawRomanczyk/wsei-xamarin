@@ -30,7 +30,7 @@
     <EmbeddedResource Update="Views\MasterDetailPage1Master.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Styles.xaml">
+    <EmbeddedResource Update="Styles\Styles.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
